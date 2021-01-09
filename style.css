@@ -1,0 +1,281 @@
+	*{
+	padding: 0;
+	margin: 0;
+	}
+
+ /*-----HEADER SECTION-----*/
+
+	#header{
+	background-image: url(img/Personal-Trainer-Build-Client-Base.jpg);
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+	}
+	.navbar-nav li a{
+	float: right;
+	color: #fff;
+	}
+	.navbar img {
+	width: 180px;
+	height: 45px;
+	}
+
+	.navbar-toggler{
+	border:none!importan;
+	outline: none!importan;
+	}
+
+	nav .fa-bars{
+	color: #fff !importan;
+	font-size: 26px;
+	}
+
+	/*-------------WELCOME TEXT HEADER--------------*/
+
+	.Welcome{
+		padding: 10px 20px;
+		margin-top: -130px;
+		background-color: #fff;
+		box-shadow: 0 0 20px 10px rgba(0,0,0,0.2);
+
+	}
+	.Welcome h1{
+		color: #787878;
+	}
+
+	.Welcome .home-btn{
+        padding: 20px 30px;
+		margin-top: 10px;
+		border-radius: 30px;
+		color: #fff !importan;
+		background-color:#ffa500;
+        box-shadow: none;
+	}
+
+	/*------------ABOUT--------------*/
+
+#about{
+	padding-top: 80px;
+	padding-bottom: 70px;
+}
+
+.text-center img{
+	width: 450px;
+	height: 440px;
+}
+
+#about .col-md-6{
+	padding: 20px 10px;
+}
+
+#about h3{
+	margin: 30px auto;
+}
+
+/*--------service----------*/
+
+#Services{
+	background-color:  #adad85;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	
+}
+#Services .col-md-4{
+	padding: 20px;
+}
+
+#Services .col-md-4 h4{
+	padding: 5px;
+}
+
+#Services .col-md-4 img{
+	width: 80px;
+	height: 75px;
+}
+#Services .col-md-4 p{
+	padding: 5px;
+	text-align: justify;
+
+}
+
+/*---------features-------------*/
+
+#features{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/new-fitness.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+
+}
+
+#features .col-md-6{
+	padding: 20px;
+}
+
+.features-box{
+	height: 120px;
+}
+.features-box .features-left{
+	height: 120px;
+	width: 20%;
+	float: left;
+}
+.features-box .features-left .fa {
+	padding-top: 13px;
+	font-size: 50px;
+}
+.features-box .features-right{
+	height: 165px;
+	width: 80%;
+	float: left;
+}
+.features-box .features-right h4{
+	padding-top:10px; 
+    padding-left: 15px;
+    text-align: left;
+}
+
+.features-box .features-right p{
+	padding-left: 15px;
+	text-align: left;
+}
+
+/*------testomonials------*/
+
+#testomonial{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#testomonial .col-md-4{
+	padding: 10px 20px;
+}
+
+.col-md-4 img {
+	width: 60px;
+	height: 60px;
+	margin-top: -25px;
+	margin-left: -20px;
+	border-radius: 16px;
+	border: 5px solid #fff;
+	margin-bottom: 30px;
+}
+
+.review{
+	font-size: 15px;
+	padding: 10px 10px 10px 30px;
+	box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+    border-radius: 16px;
+}
+.review .fa{
+	color: #013f7e;
+}
+.review span{
+	color: #013f7e;
+	font-size: 15px;
+	font-weight: bold;
+}
+#testomonial h1{
+     margin-bottom: 20px;
+     color: #013f7e;
+}
+
+#testomonial p{
+	padding: 20px;
+}
+
+/*--------subscribe----------*/
+
+.Subscribe{
+	padding: 50px 20px;
+	background-color: #013f7e;
+	position: relative;
+	box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+
+	margin-bottom: -160px;
+}
+
+.Subscribe h3, .Subscribe p{
+
+	color: #fff;
+}
+
+.Subscribe .input-group{
+	border-radius: 30px;
+	background: #fff;
+	max-width: 500px;
+	margin: 10px auto;
+	padding: 5px;
+}
+.Subscribe .form-control{
+	border:none;
+	background: transparent;
+}
+
+.Subscribe .form-control:focus{
+	box-shadow: none;
+	background: transparent;
+}
+.Subscribe .input-group-append{
+	background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+	border-radius: 30px;
+}
+.Subscribe .input-group-text{
+	background: transparent;
+	border: none;
+	color: #fff;
+}
+.Subscribe .btn:focus{
+	box-shadow: none;
+}
+
+/*------------footer--------------*/
+
+#Footer{
+	margin-top: 80px;
+	padding: 100px;
+	background-color: #efefef;
+	color: #013f7e;
+}
+
+.footer-logo{
+	width: 150px;
+	margin-top: 25px;
+	margin-bottom:15px; 
+}
+
+#Footer h1{
+	font-size: 25px;
+	text-align: left;
+	margin-top: 55px;
+	margin-bottom: 25px;
+
+}
+#Footer p{
+	font-size: 12px;
+	text-align: left;
+}
+.city{
+	margin-left:30px;
+}
+#Footer .row .fa{
+	padding-right: 20px;
+	font-size: 15px;
+}
+#Footer hr {
+	margin-top: 10px;
+	border: 2 px solid #3c3c3c;
+}
+
+#Footer .fa-heart-o{
+	color: red;
+	font-size: 17px;
+}
+#Footer .copyright {
+	margin-bottom: -80px;
+	text-align: center;
+	font-size: 15px;
+}
